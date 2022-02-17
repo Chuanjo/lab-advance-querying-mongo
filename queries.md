@@ -38,8 +38,8 @@
 
 ### 6. All the companies that don't include the `partners` field.
 
-                        preguntar por esta syntax
-- **`query`**: { partners: {$exists: true, $not: {$size: 0}} }
+                        
+- **`query`**: { partners: {$exists: false} }
 - **`projection`**:
 - **`sort`**: 
 - **`skip`**: 
